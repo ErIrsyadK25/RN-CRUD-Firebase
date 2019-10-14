@@ -9,9 +9,6 @@ import {createAppContainer} from 'react-navigation';
 const NavStack = createStackNavigator({
 	Blogs: {
 		screen: Blogs,
-		navigationOptions: () => ({
-			headerTitle: 'Blogs',
-		}),
 	},
 	Edit: {
 		screen: Edit,
